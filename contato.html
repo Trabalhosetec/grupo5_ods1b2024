@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Faça as suas sugetões</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script language="javascript" type="text/javascript">
+		function validar (){
+		var nome = form1.nome.value;
+		var email= form1.email.value;
+        var opcoes= form1.opcoes.value;		
+		
+		
+		if (nome == "") {
+		
+		alert("Digite o seu nome:");
+		form1.nome.focus();
+		return false;
+		
+		}
+
+		if (email == "") {
+		
+		alert("Digite o seu email:");
+		form1.email.focus();
+		return false;
+		
+		}
+
+        if (opcoes == "Selecione") {
+		
+		alert("Selecione alguma opção:");
+		form1.opcoes.focus();
+		return false;
+		
+		}
+		}
+	</script>
+
+</head>
+<body>
+    
+    <div class="main-menu">
+        <ul class="nv-main">
+
+            <li><a href="index.html">Home</a></li>
+            <li><a id="about" href="sobre.html">Sobre</a></li>
+            <li><a href="projeto.html">Projeto</a></li>
+            <li><a id="contact" href="contato.html">Contato</a></li>
+        </ul>      
+    </div>
+
+    <div class="section">
+        <div class="solc-box">
+            <h1>Em construção...</h1>
+        </div>
+    </div>
+
+    <div class="footer1">
+        <p>Empresa 2024 - ©Todos os direitos reservados - Trabalho acadêmico sem fins lucrativos.</p>
+        <p id="ancora"><a href="#">Subir</a></p>
+    </div>
+</body>
+</html> 
